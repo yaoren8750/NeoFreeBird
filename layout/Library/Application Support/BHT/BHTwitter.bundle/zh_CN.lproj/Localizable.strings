@@ -41,6 +41,8 @@
 "MODERN_SETTINGS_WEB_TITLE" = "网页与链接";
 "MODERN_SETTINGS_WEB_SUBTITLE" = "调整链接和 Twitter 应用内浏览器的行为。";
 
+    "MODERN_SETTINGS_CHAT_TITLE" = "聊天";
+"MODERN_SETTINGS_CHAT_SUBTITLE" = "为 XChat 界面添加更多功能。";
 "MODERN_SETTINGS_BRANDING_TITLE" = "品牌";
 "MODERN_SETTINGS_BRANDING_SUBTITLE" = "调整您看到多少 Twitter 品牌还原效果。";
 
