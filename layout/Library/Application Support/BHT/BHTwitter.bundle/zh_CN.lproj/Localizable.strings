@@ -74,7 +74,8 @@
 "ALWAYS_OPEN_SAFARI_DETAIL" = "在 Safari 或默认浏览器中打开链接。";
 
 "SHARING_DOMAIN_TITLE" = "分享域名";
-
+"ENABLE_DIM_THEME_TITLE" = "启用昏暗主题";
+"ENABLE_DIM_THEME_DETAIL" = "恢复 Twitter 已移除的昏暗主题。需要启用深色模式并重启应用。";
 /*Tweets*/
 "TWEET_TO_IMAGE_TITLE" = "将推文保存为图片";
 "TWEET_TO_IMAGE_DETAIL" = "长按“分享”按钮可导出为图片。";
@@ -84,7 +85,8 @@
 
 "TWEET_CONFIRM_TITLE" = "确认发推";
 "TWEET_CONFIRM_DETAIL" = "发布推文前进行确认。";
-
+"HIDE_BLOCKED_RETWEETS_TITLE" = "隐藏屏蔽你的用户转发";
+"HIDE_BLOCKED_RETWEETS_DETAIL" = "隐藏屏蔽你的账号所转发的内容。";
 "HIDE_BLUE_VERIFIED_TITLE" = "隐藏 Blue 认证标记";
 "HIDE_BLUE_VERIFIED_DETAIL" = "在推文中隐藏付费认证标记。这不包括品牌或政府账号。";
 
