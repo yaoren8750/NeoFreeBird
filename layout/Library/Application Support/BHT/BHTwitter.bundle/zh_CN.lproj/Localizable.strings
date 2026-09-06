@@ -57,13 +57,15 @@
 "FOLLOW_OFFICIAL_PAGE_SECTION_HEADER_TITLE" = "关注 NeoFreeBird";
 
 /*General*/
-
+"RESTORE_TWEET_LABELS_TITLE" = "显示推文来源标签";
+"RESTORE_TWEET_LABELS_DETAIL" = "显示推文发布所使用的客户端。";
 "HIDE_WHO_TO_FOLLOW_TITLE" = "不显示“推荐关注”";
 "HIDE_WHO_TO_FOLLOW_DETAIL" = "在个人资料中移除关注推荐。";
 
 "HIDE_TIMELINE_PROMPTS_TITLE" = "不显示时间线提示";
 "HIDE_TIMELINE_PROMPTS_DETAIL" = "移除“添加通讯录”等横幅。";
-
+"HIDE_VERIFIED_TWEETS_TITLE" = "隐藏认证账号的推文";
+"HIDE_VERIFIED_TWEETS_DETAIL" = "在时间线和回复中隐藏认证账号的推文，除非作者在同一对话串中回复过这些推文，或你关注了该账号。";
 "PADLOCK_TITLE" = "锁定 Twitter";
 "PADLOCK_DETAIL" = "启用 Face ID 或密码解锁 Twitter。";
 
