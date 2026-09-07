@@ -277,37 +277,102 @@
 "SOURCE_UNAVAILABLE" = "来源不可用";
 
 /*App lock*/
-"PADLOCK_LOCKED_LABEL" = "Locked";
+"PADLOCK_LOCKED_LABEL" = "已锁定";
 
 /*Source labels*/
-"UNKNOWN_SOURCE" = "Unknown Source";
+"UNKNOWN_SOURCE" = "未知来源";
 
 /*Media downloads*/
-"DOWNLOAD_VIDEO_NUMBER_TITLE" = "Video %lu";
-"UNKNOWN_ERROR" = "An unknown error occurred.";
+"DOWNLOAD_VIDEO_NUMBER_TITLE" = "视频 %lu";
+"UNKNOWN_ERROR" = "发生未知错误。";
 
 /*Custom fonts*/
-"INSTALL_IFONT_BUTTON_TITLE" = "iFont application";
-"FONT_SYSTEM_DEFAULT_SUBTITLE" = "System Default";
+"INSTALL_IFONT_BUTTON_TITLE" = "iFont 应用";
+"FONT_SYSTEM_DEFAULT_SUBTITLE" = "系统默认";
 
 /*Legacy login*/
-"LEGACY_LOGIN_INFO_LABEL" = "Log in with your username and password.\n\nGoogle and Apple sign-in aren't supported. If your account uses one of those, add a password to it first.";
-"LEGACY_LOGIN_MISSING_INPUT_TITLE" = "Missing input";
-"LEGACY_LOGIN_MISSING_INPUT_MESSAGE" = "Enter username and password.";
-"LEGACY_LOGIN_VERIFYING_STATUS" = "Verifying…";
-"LEGACY_LOGIN_SIGNING_IN_STATUS" = "Signing in…";
-"LEGACY_LOGIN_UNAVAILABLE_TITLE" = "Unavailable";
-"LEGACY_LOGIN_CLASSES_MISSING_MESSAGE" = "Login classes missing.";
-"LEGACY_LOGIN_BUILD_COMMAND_FAILED_MESSAGE" = "Could not build command.";
-"LEGACY_LOGIN_CRASH_AVOIDED_TITLE" = "Crash avoided";
-"LEGACY_LOGIN_UNEXPECTED_RESPONSE_TITLE" = "Unexpected response";
-"LEGACY_LOGIN_NO_TOKEN_NO_CHALLENGE_MESSAGE" = "No token and no challenge.";
-"LEGACY_LOGIN_CHALLENGE_MISSING_INFO_MESSAGE" = "Challenge is missing its request id or URL.";
-"LEGACY_LOGIN_CHALLENGE_CLASSES_MISSING_MESSAGE" = "Challenge/host classes missing.";
-"LEGACY_LOGIN_BUILD_CHALLENGE_FAILED_MESSAGE" = "Could not build challenge.";
-"LEGACY_LOGIN_NO_TOKEN_MESSAGE" = "No token in response.";
-"LEGACY_LOGIN_FAILED_TITLE" = "Login failed";
-"LEGACY_LOGIN_NO_ACCOUNT_MESSAGE" = "No account was returned.";
-"LEGACY_LOGIN_RATE_LIMITED_TITLE" = "Likely rate limited (243)";
-"LEGACY_LOGIN_RATE_LIMITED_MESSAGE" = "Too many attempts. Wait a while or switch network/VPN, then try again.\n\nDetails:\n%@";
-"LEGACY_LOGIN_UNKNOWN_ERROR" = "Unknown error";
+"LEGACY_LOGIN_INFO_LABEL" = "使用用户名和密码登录。\n\n不支持 Google 和 Apple 登录。如果你的账号使用其中一种方式登录，请先为账号设置密码。";
+"LEGACY_LOGIN_MISSING_INPUT_TITLE" = "缺少输入";
+"LEGACY_LOGIN_MISSING_INPUT_MESSAGE" = "请输入用户名和密码。";
+"LEGACY_LOGIN_VERIFYING_STATUS" = "正在验证…";
+"LEGACY_LOGIN_SIGNING_IN_STATUS" = "正在登录…";
+"LEGACY_LOGIN_UNAVAILABLE_TITLE" = "不可用";
+"LEGACY_LOGIN_CLASSES_MISSING_MESSAGE" = "缺少登录类。";
+"LEGACY_LOGIN_BUILD_COMMAND_FAILED_MESSAGE" = "无法构建命令。";
+"LEGACY_LOGIN_CRASH_AVOIDED_TITLE" = "已避免崩溃";
+"LEGACY_LOGIN_UNEXPECTED_RESPONSE_TITLE" = "意外响应";
+"LEGACY_LOGIN_NO_TOKEN_NO_CHALLENGE_MESSAGE" = "没有令牌，也没有验证请求。";
+"LEGACY_LOGIN_CHALLENGE_MISSING_INFO_MESSAGE" = "验证请求缺少请求 ID 或 URL。";
+"LEGACY_LOGIN_CHALLENGE_CLASSES_MISSING_MESSAGE" = "缺少验证请求/主机类。";
+"LEGACY_LOGIN_BUILD_CHALLENGE_FAILED_MESSAGE" = "无法构建验证请求。";
+"LEGACY_LOGIN_NO_TOKEN_MESSAGE" = "响应中没有令牌。";
+"LEGACY_LOGIN_FAILED_TITLE" = "登录失败";
+"LEGACY_LOGIN_NO_ACCOUNT_MESSAGE" = "未返回账号。";
+"LEGACY_LOGIN_RATE_LIMITED_TITLE" = "可能触发频率限制（243）";
+"LEGACY_LOGIN_RATE_LIMITED_MESSAGE" = "尝试次数过多。请稍等一段时间，或切换网络/VPN 后再试。\n\n详情：\n%@";
+"LEGACY_LOGIN_UNKNOWN_ERROR" = "未知错误";
+"HIDE_TWEET_BUTTON_TITLE" = "隐藏推文按钮";
+
+"HIDE_TWEET_BUTTON_DETAIL" = "从导航栏中移除推文按钮。";
+
+"GENERIC_OFF_LABEL" = "关闭";
+
+"SUBSCRIPTION_UNDO_SEND_DURATION_LABEL" = "%ld 秒";
+
+"SUBSCRIPTION_UNDO_SEND_DURATION_TITLE" = "撤回时间";
+
+"SUBSCRIPTION_UNDO_SEND_DURATION_DETAIL" = "选择发送推文后撤回按钮保留的时间。";
+
+"DISABLE_MEDIA_CAROUSEL_TITLE" = "停用媒体轮播";
+
+"DISABLE_MEDIA_CAROUSEL_DETAIL" = "恢复多个媒体附件的旧版显示样式。";
+
+"SHOW_POLL_RESULTS_TITLE" = "投票前显示结果";
+
+"SHOW_POLL_RESULTS_DETAIL" = "在投票选项名称旁显示当前投票结果，让你在投票前了解其他人的选择。";
+
+"SHOW_ACCOUNT_LOCATION_TITLE" = "显示账号所在地";
+
+"SHOW_ACCOUNT_LOCATION_DETAIL" = "在推文底部显示发布该推文的账号所在地。";
+
+"UPLOAD_FULL_HD_VIDEOS_TITLE" = "上传全高清（1080p）视频";
+
+"UPLOAD_FULL_HD_VIDEOS_DETAIL" = "解锁上传 1080p 视频的功能。";
+
+"DISABLE_VIDEO_DOCKING_TITLE" = "禁止视频停靠";
+
+"DISABLE_VIDEO_DOCKING_DETAIL" = "拖动视频移出时不显示画中画（PiP）按钮。";
+
+"TAP_TO_PAUSE_TITLE" = "轻点暂停视频";
+
+"TAP_TO_PAUSE_DETAIL" = "用两根手指轻点视频即可暂停，无需使用暂停按钮。";
+
+"FAST_BLOCK_TITLE" = "快速屏蔽/静音";
+
+"FAST_BLOCK_DETAIL" = "无需确认即可屏蔽或静音账号。";
+
+"SHOW_UNROUNDED_COUNTS_TITLE" = "显示精确数量";
+
+"SHOW_UNROUNDED_COUNTS_DETAIL" = "显示粉丝、关注和推文的精确数量，而不是四舍五入到最近的千或百万。";
+
+"HIDE_TYPING_INDICATOR_TITLE" = "隐藏正在输入状态";
+
+"HIDE_TYPING_INDICATOR_DETAIL" = "停止向聊天中的其他人发送“正在输入...”状态。";
+
+"DOWNLOAD_VOICE_MESSAGES_TITLE" = "下载语音消息";
+
+"DOWNLOAD_VOICE_MESSAGES_DETAIL" = "播放语音消息后将其保存到设备（用两根手指长按语音消息即可下载）。";
+
+"BLOCK_SCREENSHOT_DETECTION_TITLE" = "阻止截图检测";
+
+"BLOCK_SCREENSHOT_DETECTION_DETAIL" = "允许在“安全”聊天中截图，不会受到限制。";
+
+"BLUE_LAUNCH_SCREEN_TITLE" = "恢复蓝色启动画面";
+
+"BLUE_LAUNCH_SCREEN_DETAIL" = "恢复原来的蓝色启动画面。";
+
+"CONTRIBUTOR_PAGE_SECTION_HEADER_TITLE" = "贡献者";
+
+
+
+
