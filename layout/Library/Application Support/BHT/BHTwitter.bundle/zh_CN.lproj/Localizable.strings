@@ -404,7 +404,59 @@
 "GENERIC_OFF_LABEL" = "关闭";
 "SUBSCRIPTION_UNDO_SEND_DURATION_LABEL" = "%ld 秒";
 
-```
+"OK_ACTION_LABEL" = "确定";
 
-这版我也把几个容易出问题的地方统一了：**没有动任何 Key，也没有动 `%lu`、`%ld`、`%@` 和 `\n`**，所以可以直接替换 `zh-Hans.lproj/Localizable.strings`。
-```
+"NO_FOCUS_LOST_TITLE" = "保持阅读位置";
+
+"NO_FOCUS_LOST_DETAIL" = "阻止 Twitter 检测你是否切换到了其他 App，这样你在查看帖子串时就不会丢失阅读位置。";
+
+"USE_TENOR_GIFS_TITLE" = "使用 Tenor GIF";
+
+"USE_TENOR_GIFS_DETAIL" = "使用 Tenor 的 GIF，而不是 Twitter 的 GIF（GIPHY）。Tenor 提供更多选择。";
+
+"DOWNLOAD_HIGHEST_QUALITY_TITLE" = "始终下载最高画质";
+
+"DOWNLOAD_HIGHEST_QUALITY_DETAIL" = "跳过画质选择，直接保存最高画质的 MP4。";
+
+"PHONE_OR_EMAIL_OR_USERNAME_LABEL" = "手机号、邮箱或用户名";
+
+"PASSWORD_LABEL" = "密码";
+
+"LOG_IN_ACTION_LABEL" = "登录";
+
+"LOG_IN_TITLE" = "登录";
+
+"SETTINGS_EXPORT_TITLE" = "导出设置";
+
+"SETTINGS_IMPORT_TITLE" = "导入设置";
+
+"SETTINGS_EXPORT_FAILED_TITLE" = "导出失败";
+
+"SETTINGS_EXPORT_WRITE_FAILED" = "无法创建设置文件。";
+
+"SETTINGS_IMPORT_CONFIRM_TITLE" = "导入设置？";
+
+"SETTINGS_IMPORT_CONFIRM_MESSAGE" = "你当前的 NeoFreeBird 设置将被所选文件中的设置替换。";
+
+"SETTINGS_IMPORT_CONFIRM_BUTTON" = "选择文件";
+
+"SETTINGS_IMPORT_FAILED_TITLE" = "导入失败";
+
+"SETTINGS_IMPORT_SUCCESS_TITLE" = "设置已导入";
+
+"SETTINGS_IMPORT_SUCCESS_MESSAGE" = "已应用 %ld 项设置。重启 App 后，所有设置才会生效。";
+
+"SETTINGS_IMPORT_RESTART_BUTTON" = "重启";
+
+"SETTINGS_IMPORT_LATER_BUTTON" = "稍后";
+
+"SETTINGS_TRANSFER_UNREADABLE_FILE" = "无法读取该文件。";
+
+"SETTINGS_TRANSFER_MALFORMED_FILE" = "该文件不是 NeoFreeBird 设置导出文件。";
+
+"SETTINGS_TRANSFER_NO_SETTINGS" = "该文件中没有此版本能够识别的设置。";
+
+
+
+//这版我也把几个容易出问题的地方统一了：**没有动任何 Key，也没有动 `%lu`、`%ld`、`%@` 和 `\n`**，所以可以直接替换 `zh-Hans.lproj/Localizable.strings`。
+
