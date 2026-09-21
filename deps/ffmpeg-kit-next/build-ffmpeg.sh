@@ -67,11 +67,17 @@ OPENSSL_SRC="$BUILD/openssl"
 OPENSSL_PREFIX="$BUILD/openssl-install"
 
 if [[ ! -f "$OPENSSL_PREFIX/lib/libssl.a" ]]; then
-    git clone --depth 1 https://github.com/openssl/openssl.git "$OPENSSL_SRC"
+    if [[ ! -d "$OPENSSL_SRC" ]]; then
+        git clone --depth 1 https://github.com/openssl/openssl.git "$OPENSSL_SRC"
+    else
+        echo "Using existing OpenSSL source: $OPENSSL_SRC"
+    fi
 
     pushd "$OPENSSL_SRC"
 
     export IPHONEOS_DEPLOYMENT_TARGET=14.0
+    export AR="$AR_BIN"
+    export RANLIB="$RANLIB_BIN"
 
     ./Configure ios64-xcrun \
         no-shared \
